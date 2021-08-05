@@ -1,0 +1,8 @@
+- Docs, examples
+- Provide a usage function for printing list of options
+- Name of variable for parameters that will be displayed in usage eg. "--my-arg VAR"
+- Use std::string instead of const char*?
+- Remove empty categories
+- Accept both "--my-arg x" and "--my-arg=x" style
+- Keep track of argument position and make them comparable with operator < and >
+- Use a hashmap instead of vector for storing options? Probably doesn't matter
